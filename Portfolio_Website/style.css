@@ -4,6 +4,34 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+body {
+    /* background: linear-gradient(to right, #bdc3c7, #537495); */
+    background-image: url("/Portfolio_Website/assets/PP_Background.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+:root {
+    --section-font: 18px;
+    --section-color: #000;
+    --heading-font: 36px;
+    --margin-bottom: 8px;
+    --mp-margin: 20px;
+    --mp-padding: 10px 20px 60px 20px;
+}
+
+.para {
+    font-size: var(--section-font);
+    color: var(--section-color);
+}
+.heading{
+    font-size: var(--heading-font);
+    color: var(--section-color);
+    margin-bottom: var(--margin-bottom);
+}
+.mp{
+    padding: var(--mp-padding);
+    margin: var(--mp-margin);
+}
 
 .poppins-light {
     font-family: "Poppins", sans-serif;
@@ -18,12 +46,6 @@
 }
 
 
-body {
-    /* background: linear-gradient(to right, #bdc3c7, #537495); */
-    background-image: url("/Portfolio_Website/PP_Background.png");
-    background-repeat:no-repeat;
-    background-size: cover;
-}
 
 .container {
     width: 100vw;
@@ -61,6 +83,7 @@ nav {
 
 #Home{
     text-align: center;
+    margin: 160px;
 }
 #Home h1{
     font-size: 60px;
@@ -72,28 +95,31 @@ nav {
     font-size: 24px;
 }
 #About{
-    padding: 60px 20px;
-    margin-top: 40px;
-}
-#About h2{
-    font-size: 36px;
-    margin-bottom: 15px;
-    
-}
-#About,#cv > p{
-    font-size: 18px;
-}
-
-#cv{
-    padding: 0 20px;
+    margin-top: 190px;
 }
 #cv a{
     text-decoration: none;
     color: #000000;
     font-size: 18px;
 }
-
-
+#Contact{
+    margin-top: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+#Contact ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+#Contact ul li img{
+    width: 40px;
+    cursor: pointer;
+}
 
 
 
