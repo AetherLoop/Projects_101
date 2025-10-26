@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <!-- Innovate w/ in ITC Benguiat -->
+  <text x="200" y="135" font-family="'ITC Benguiat', serif" font-size="58" font-weight="400" text-anchor="middle" fill="#000000">
+    Innovate w/
+  </text>
+  
+  <!-- Hemant in fancy yet professional script -->
+  <text x="200" y="195" font-family="'Zapfino', 'Bickham Script', 'Copperplate Script', 'Kunstler Script', cursive" font-size="40" font-weight="200" text-anchor="middle" fill="#000000">
+    Hemant
+  </text>
+</svg>

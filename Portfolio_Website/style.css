@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+body {
+    /* background: linear-gradient(to right, #bdc3c7, #537495); */
+    background-image: url("/Portfolio_Website/PP_Background.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100vw;
+    /* border: 1px solid black; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    height: 140px;
+    /* border: 1px solid black; */
+}
+
+.navlist a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.logo img {
+    /* border: 1px solid black; */
+    width: 250px;
+    cursor: pointer;
+}
+
+#Home{
+    text-align: center;
+}
+#Home h1{
+    font-size: 60px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #000000;
+}
+#Home p{
+    font-size: 24px;
+}
+#About{
+    padding: 60px 20px;
+    margin-top: 40px;
+}
+#About h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+    
+}
+#About,#cv > p{
+    font-size: 18px;
+}
+
+#cv{
+    padding: 0 20px;
+}
+#cv a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    nav {
+        /* flex-direction: row; Stack logo and nav items */
+        height: auto;
+        /* Adjust height */
+        /* padding: 10px 15px; */
+    }
+
+    .navlist {
+        flex-direction: row;
+        /* Stack nav items */
+        gap: 10px;
+        /* Adjust gap */
+    }
+
+    .navlist a {
+        font-size: 18px;
+        /* Increase font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        width: 30vw;
+        /* Adjust logo size for very small screens */
+    }
+
+    nav {
+        padding: 0 10px;
+        /* Adjust padding */
+    }
+
+    .navlist a {
+        font-size: 18px;
+    }
+}
